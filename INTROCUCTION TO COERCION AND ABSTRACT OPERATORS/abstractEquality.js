@@ -12,3 +12,8 @@ console.log(null == "false");//False
 //y-->Boolean-->ToNumber-->0
 //null == 0
 //False-->Satisfying the last conditon.
+
+console.log("NaN"==NaN);
+let obj={x:10,valueOf(){return 100;}}
+console.log(99 == obj);
+console.log(100 == obj);
