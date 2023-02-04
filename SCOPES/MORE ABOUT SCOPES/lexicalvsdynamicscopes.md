@@ -2,14 +2,14 @@ Lexical Scoping-->Before the execution phase,scopes are determined.Lexical Refer
 
 Dynamic Scoping-->The Scope Resolution is done during Runtime.Example-->Bash Script
 
-//Lexical Scoping
-`var teacher = "Sanket"; //teacher-->global scope-->sanket
-function ask(question) { //ask-->global scope
-	console.log(teacher, question); //sanket why
-}
-
-function fun() { //fun-->global scope
-	var teacher = "Pulkit"; //teacher-->fun scope-->pulkit
-	ask("why?");
-}
-fun();`
+//Lexical Scoping<br>
+var teacher = "Sanket"; //teacher-->global scope-->sanket <br>
+function ask(question) { //ask-->global scope<br>
+	console.log(teacher, question); //sanket why <br>
+}<br>
+<br>
+function fun() { //fun-->global scope <br>
+	var teacher = "Pulkit"; //teacher-->fun scope-->pulkit <br>
+	ask("why?"); <br>
+}<br>
+fun();<br>
