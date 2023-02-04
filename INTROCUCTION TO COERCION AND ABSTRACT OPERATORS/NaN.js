@@ -18,3 +18,4 @@ if(typeof(x) == 'number' && x !== x ) {
 }
 
 console.log(x !== x); // ! == is there any problem with this expression to check nan value
+// Why is this true?Because x is NaN and NaN is not equal to NaN    
