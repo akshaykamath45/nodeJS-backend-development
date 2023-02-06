@@ -17,5 +17,5 @@ function process(x, y) {
 
 fun();//
 
-//When variables are declared using let,only post declaration is allowed,also reassignments are allowed.
+//When variables are declared using let,only post declaration is allowed,also reassignments are not allowed.In Var Re-Declaration is allowed
 //If we try to access the variable before declaration,we will get ReferenceError.It is known as Temporal Dead Zone.

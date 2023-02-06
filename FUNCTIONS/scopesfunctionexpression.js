@@ -4,4 +4,4 @@ const f = function fun() {
 }
 
 console.log(f());
-// fun();s
+// fun();s //
